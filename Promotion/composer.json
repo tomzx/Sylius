@@ -1,8 +1,8 @@
 {
-    "name": "sylius/inventory",
+    "name": "sylius/promotion",
     "type": "library",
-    "description": "Flexible inventory management for PHP applications.",
-    "keywords": ["shop", "ecommerce", "stock", "inventory", "sylius"],
+    "description": "Flexible promotion management for PHP applications.",
+    "keywords": ["shop", "ecommerce", "promotion", "sylius"],
     "homepage": "http://sylius.org",
     "license": "MIT",
     "authors": [
@@ -31,9 +31,9 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "Sylius\\Component\\Inventory\\": "" }
+        "psr-0": { "Sylius\\Component\\Promotion\\": "" }
     },
-    "target-dir": "Sylius/Component/Inventory",
+    "target-dir": "Sylius/Component/Promotion",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
